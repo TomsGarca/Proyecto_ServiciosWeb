@@ -1,0 +1,840 @@
+{
+	"info": {
+		"_postman_id": "9bfb7345-eaa7-435e-9e5c-574e6ce0561b",
+		"name": "PHP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getListProd",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "default"
+					},
+					{
+						"key": "password",
+						"value": "12345678a",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/ServiciosWeb/miniProyecto/productos/Libros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ServiciosWeb",
+						"miniProyecto",
+						"productos",
+						"Libros"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/productos/Libros",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"productos",
+								"Libros"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:02:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "198"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"message\": \"Categoria encontrada exitosamente.\",\n    \"data\": {\n        \"LIB001\": \"Divina Comedia\",\n        \"LIB002\": \"Harry Potter Fenix Azul\"\n    },\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "PruebaHeader",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "user",
+								"value": "pruebas1",
+								"type": "default"
+							},
+							{
+								"key": "password",
+								"value": "12345678a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/productos/Libros",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"productos",
+								"Libros"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:51:35 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "198"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"message\": \"Categoria encontrada exitosamente.\",\n    \"data\": {\n        \"LIB001\": \"Divina Comedia\",\n        \"LIB002\": \"Harry Potter Fenix Azul\"\n    },\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "getDetalles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "default"
+					},
+					{
+						"key": "password",
+						"value": "12345678a",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/ServiciosWeb/miniProyecto/detalles/LIB001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ServiciosWeb",
+						"miniProyecto",
+						"detalles",
+						"LIB001"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/detalles/LIB001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"detalles",
+								"LIB001"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:06:49 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "124"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "Clave:  Lib001{\n    \"code\": 201,\n    \"message\": \"ISBN encontrado exitosamente.\",\n    \"data\": null,\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "getDetallesHeader",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "user",
+								"value": "pruebas1",
+								"type": "default"
+							},
+							{
+								"key": "password",
+								"value": "12345678a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/detalles/LIB001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"detalles",
+								"LIB001"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:53:38 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "273"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 201,\n    \"message\": \"ISBN encontrado exitosamente.\",\n    \"data\": {\n        \"Autor\": \"Autor X\",\n        \"Descuento\": 0,\n        \"Editorial\": \"Editorial X\",\n        \"Fecha\": 2020,\n        \"Nombre\": \"Libro 1\",\n        \"Precio\": 1\n    },\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "insertProd",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "default"
+					},
+					{
+						"key": "password",
+						"value": "12345678a",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "categoria",
+							"value": "Mangas",
+							"type": "default"
+						},
+						{
+							"key": "producto",
+							"value": "One Punch Man",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/ServiciosWeb/miniProyecto/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ServiciosWeb",
+						"miniProyecto",
+						"producto"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 1",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "categoria",
+									"value": "Mangas",
+									"type": "default"
+								},
+								{
+									"key": "producto",
+									"value": "One Punch Man",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/producto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"producto"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:10:43 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "131"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 202,\n    \"message\": \"Producto Registrado Correctamente\",\n    \"data\": \"2023-03-28 07:10:44\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "insertProdHeader",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user",
+								"value": "pruebas1",
+								"type": "default"
+							},
+							{
+								"key": "password",
+								"value": "12345678a",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "categoria",
+									"value": "Mangas",
+									"type": "default"
+								},
+								{
+									"key": "producto",
+									"value": "One Punch Man",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/producto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"producto"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:54:06 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "131"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 202,\n    \"message\": \"Producto Registrado Correctamente\",\n    \"data\": \"2023-03-28 07:54:07\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "updateP",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "default"
+					},
+					{
+						"key": "password",
+						"value": "12345678a",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoria\": \"Comics\", \r\n    \"producto\": \"Flash\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/ServiciosWeb/miniProyecto/producto/COM002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ServiciosWeb",
+						"miniProyecto",
+						"producto",
+						"COM002"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 1",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoria\": \"Comics\", \r\n    \"producto\": \"Flash\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/producto/COM002",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"producto",
+								"COM002"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:13:32 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "132"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 203,\n    \"message\": \"Producto actualizado correctamente\",\n    \"data\": \"2023-03-28 07:13:35\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "updatePHeader",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "user",
+								"value": "pruebas1",
+								"type": "default"
+							},
+							{
+								"key": "password",
+								"value": "12345678a",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoria\": \"Comics\", \r\n    \"producto\": \"Flash\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/producto/COM002",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"producto",
+								"COM002"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:54:30 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "132"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 203,\n    \"message\": \"Producto actualizado correctamente\",\n    \"data\": \"2023-03-28 07:54:33\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "deleteP",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "default"
+					},
+					{
+						"key": "password",
+						"value": "12345678a",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/ServiciosWeb/miniProyecto/product/MAN002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ServiciosWeb",
+						"miniProyecto",
+						"product",
+						"MAN002"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 1",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/product/MAN002",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"product",
+								"MAN002"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:15:00 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "128"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"Producto borrado correctamente\",\n    \"data\": \"2023-03-28 07:15:03\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "deletePHeader",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "user",
+								"value": "pruebas1",
+								"type": "default"
+							},
+							{
+								"key": "password",
+								"value": "12345678a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/ServiciosWeb/miniProyecto/product/MAN002",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"ServiciosWeb",
+								"miniProyecto",
+								"product",
+								"MAN002"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 28 Mar 2023 05:55:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.0"
+						},
+						{
+							"key": "Content-Length",
+							"value": "128"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"Producto borrado correctamente\",\n    \"data\": \"2023-03-28 07:55:19\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		}
+	]
+}
