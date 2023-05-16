@@ -1,20 +1,20 @@
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\bin\Debug\Cliente.exe.config
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\bin\Debug\Cliente.exe
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\bin\Debug\Cliente.pdb
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.csproj.AssemblyReference.cache
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.csproj.SuggestedBindingRedirects.cache
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.Form1.resources
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.Properties.Resources.resources
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.exe
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.pdb
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.FormUser.resources
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.Formget.resources
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.FormP.resources
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\bin\Debug\Newtonsoft.Json.dll
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\bin\Debug\Newtonsoft.Json.xml
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.csproj.CopyComplete
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\bin\Debug\System.Net.Http.Formatting.dll
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\bin\Debug\System.Net.Http.Formatting.xml
-D:\Universidad\Servicios Web\MiniProyecto\Cliente\Cliente\obj\Debug\Cliente.FormDel.resources
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\bin\Debug\Cliente.exe.config
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\bin\Debug\Cliente.exe
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\bin\Debug\Newtonsoft.Json.dll
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\bin\Debug\System.Net.Http.Formatting.dll
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\bin\Debug\Newtonsoft.Json.xml
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\bin\Debug\System.Net.Http.Formatting.xml
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.csproj.AssemblyReference.cache
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.csproj.SuggestedBindingRedirects.cache
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.Form1.resources
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.FormUser.resources
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.Formget.resources
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.FormP.resources
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.FormDel.resources
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.Properties.Resources.resources
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.csproj.CopyComplete
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.exe
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\obj\Debug\Cliente.pdb
+D:\Universidad\Servicios_Web\Proyecto\Proyecto_ServiciosWeb\Cliente\Cliente\bin\Debug\Cliente.pdb
